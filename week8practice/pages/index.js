@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import B from "../src/components/B.jsx";
 import C from "../src/components/C.jsx";
-import D from "../src/components/D.jsx";
 
 export default function App() {
   const [value, setValue] = useState("NONE");

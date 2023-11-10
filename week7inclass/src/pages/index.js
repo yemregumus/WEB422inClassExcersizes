@@ -2,6 +2,8 @@ import React from "react";
 import UncontrolledForms from "../src/components/UncontrolledForms.jsx";
 import ControlledForms from "../src/components/ControlledForm.jsx";
 import ReactHookForm from "../src/components/ReactHookForm.jsx";
+import AnotherControlledForm from "@/src/components/AnotherControlledForm.jsx";
+import AnotherReactHookForm from "@/src/components/AnotherReactHookForm.jsx";
 
 export default function Home() {
   return (
@@ -15,9 +17,13 @@ export default function Home() {
       <br />
       <ControlledForms />
       <br />
+      <br />
+      <AnotherControlledForm />
       <div> ------------------------------------------- </div>
       <br />
       <ReactHookForm />
+      <br />
+      <AnotherReactHookForm />
     </>
   );
 }
