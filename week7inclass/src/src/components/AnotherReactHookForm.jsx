@@ -17,7 +17,7 @@ export default function AnotherReactHookForm() {
   useEffect(() => {
     let data = {
       jobDesc: "Oriflame IT Networking Boss",
-      yearsWorked: "Bilocan",
+      yearsWorked: 3,
     };
 
     for (const prop in data) {
